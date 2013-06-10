@@ -2,9 +2,14 @@
 import sys
 from PyQt4.QtGui import *
 
-app = QApplication(sys.argv)
 
-widget = QWidget()
-widget.show()
+def main():
+    app = QApplication(sys.argv)
 
-app.exec_()
+    widget = QWidget()
+    widget.show()
+
+    app.exec_()
+
+if __name__ == '__main__':
+    sys.exit(main())
